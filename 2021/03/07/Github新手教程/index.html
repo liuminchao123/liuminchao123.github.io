@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  
+  <link rel="stylesheet" href="/lib/animate-css/animate.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"liuminchao123.github.io","root":"/","scheme":"Pisces","version":"8.0.0-rc.4","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="GitHub注册一个账号直接在首页注册即可啦">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Github新手教程">
+<meta property="og:url" content="http://liuminchao123.github.io/2021/03/07/Github%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/index.html">
+<meta property="og:site_name" content="我的小站">
+<meta property="og:description" content="GitHub注册一个账号直接在首页注册即可啦">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215031114.png">
+<meta property="og:image" content="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215048987.png">
+<meta property="og:image" content="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/2020062521511921.png">
+<meta property="og:image" content="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/2020062521513735.png">
+<meta property="og:image" content="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215147930.png">
+<meta property="og:image" content="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215227598.png">
+<meta property="og:image" content="http://liuminchao123.github.io/Myblog_old/blog/source/_posts/Github入门教程/image-20200625203233073.png">
+<meta property="og:image" content="f:/Typora_img/20200625215309294.png">
+<meta property="og:image" content="f:/Typora_img/20200625215329169.png">
+<meta property="og:image" content="f:/Typora_img/20200625215341900.png">
+<meta property="og:image" content="f:/Typora_img/20200625215411915.png">
+<meta property="og:image" content="f:/Typora_img/20200625215429931.png">
+<meta property="og:image" content="f:/Typora_img/20200625215511401.png">
+<meta property="og:image" content="f:/Typora_img/20200625215552555.png">
+<meta property="og:image" content="http://liuminchao123.github.io/Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625204605115.png">
+<meta property="og:image" content="f:/Typora_img/20200625215927780.png">
+<meta property="og:image" content="f:/Typora_img/20200625220000455.png">
+<meta property="og:image" content="http://liuminchao123.github.io/Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625220028818.png">
+<meta property="og:image" content="http://liuminchao123.github.io/Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625204907622.png">
+<meta property="og:image" content="http://liuminchao123.github.io/Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625204952501.png">
+<meta property="og:image" content="http://liuminchao123.github.io/Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625205028157.png">
+<meta property="og:image" content="http://liuminchao123.github.io/Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625205259073.png">
+<meta property="og:image" content="f:/Typora_img/image-20200625205443439.png">
+<meta property="og:image" content="http://liuminchao123.github.io/Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213154920.png">
+<meta property="og:image" content="http://liuminchao123.github.io/Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213054992.png">
+<meta property="og:image" content="http://liuminchao123.github.io/Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213405589.png">
+<meta property="og:image" content="http://liuminchao123.github.io/Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213437259.png">
+<meta property="og:image" content="http://liuminchao123.github.io/Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213503636.png">
+<meta property="article:published_time" content="2021-03-07T12:19:00.000Z">
+<meta property="article:modified_time" content="2021-03-07T12:19:32.560Z">
+<meta property="article:author" content="刘弘毅">
+<meta property="article:tag" content="小教程">
+<meta property="article:tag" content="Github">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215031114.png">
+
+<link rel="canonical" href="http://liuminchao123.github.io/2021/03/07/Github%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Github新手教程 | 我的小站</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <main class="main">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+        <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line toggle-line-first"></span>
+        <span class="toggle-line toggle-line-middle"></span>
+        <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">我的小站</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">少即是多</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#GitHub"><span class="nav-text">GitHub</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B3%A8%E5%86%8C%E4%B8%80%E4%B8%AA%E8%B4%A6%E5%8F%B7"><span class="nav-text">注册一个账号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%E4%BB%8B%E7%BB%8D"><span class="nav-text">个人主页介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE%E4%BB%93%E5%BA%93"><span class="nav-text">创建项目仓库</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE"><span class="nav-text">创建项目</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%93%E5%BA%93%E9%A1%B5%E9%9D%A2%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D"><span class="nav-text">仓库页面功能介绍</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%BA%E4%BB%93%E5%BA%93%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="nav-text">为仓库新建文件和文件夹</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A7%82%E6%91%A9%E5%A4%A7%E7%A5%9E%E7%9A%84%E9%A1%B9%E7%9B%AE"><span class="nav-text">观摩大神的项目</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B3%E4%BA%8EGithub%E8%AE%BF%E9%97%AE%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-text">关于Github访问慢的问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AF%B9%E4%BA%8E%E4%B8%8B%E8%BD%BD%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-text">对于下载慢的问题</span></a></li></ol></div>
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">刘弘毅</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/liuminchao123" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;liuminchao123" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/mr.liuminchao@outlook.com" title="E-Mail → mr.liuminchao@outlook.com"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </section>
+        <div class="back-to-top animated">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </header>
+
+      
+
+<noscript>
+  <div id="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+      <div class="main-inner">
+        
+
+        <div class="content post posts-expand">
+          
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://liuminchao123.github.io/2021/03/07/Github%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="刘弘毅">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="我的小站">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Github新手教程
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-03-07 20:19:00" itemprop="dateCreated datePublished" datetime="2021-03-07T20:19:00+08:00">2021-03-07</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Learn/" itemprop="url" rel="index"><span itemprop="name">Learn</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.1k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h2><h3 id="注册一个账号"><a href="#注册一个账号" class="headerlink" title="注册一个账号"></a>注册一个账号</h3><p>直接在<a target="_blank" rel="noopener" href="https://github.com/">首页</a>注册即可啦</p>
+<span id="more"></span>
+
+<img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215031114.png" alt="在这里插入图片描述"  />
+
+<p>要注意的是 第一项 username 别人是可见的 后面修改也会比较麻烦，所以起个好名字很重要</p>
+<h3 id="个人主页介绍"><a href="#个人主页介绍" class="headerlink" title="个人主页介绍"></a>个人主页介绍</h3><p>刚注册好的页面类似这样，只不过还没有自己的repositories(项目仓库)，stars(收藏)</p>
+<img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215048987.png" alt="在这里插入图片描述"  />
+
+<ul>
+<li><p>Overview板块</p>
+<p>  这里是你的主页部分</p>
+</li>
+</ul>
+<img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/2020062521511921.png" alt="在这里插入图片描述"  />
+
+<p>下拉之后，是你创建，修改，提交的一些细节记录</p>
+<img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/2020062521513735.png" alt="在这里插入图片描述"  />
+
+<ul>
+<li><p>项目仓库板块 Repositories</p>
+<p>  这里展示你的项目（自己创建的，fork他人的)</p>
+</li>
+</ul>
+<img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215147930.png" alt="在这里插入图片描述"  />
+    也可以进行项目查找工作（包括对类型，语言的筛选）
+
+<p>​    也可以点击<code>New</code> 绿色的按钮，进行项目创建</p>
+<p>​    </p>
+<ul>
+<li><p>项目管理板块Projects</p>
+<p>  这里你可以描述有关项目的细节，如：拉去请求，注释，议题</p>
+  <img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215227598.png" alt="在这里插入图片描述"  />
+  我暂时还没用到……</li>
+</ul>
+<ul>
+<li><p>包注册表板块Packages</p>
+<p>  官方给的介绍是：GitHub 包注册表 是一种软件包托管服务，允许您私下或公开托管软件包，并将包用作项目中的依赖项（暂时用不上）</p>
+  <img src="../../../../Myblog_old/blog/source/_posts/Github入门教程/image-20200625203233073.png" alt="image-20200625203233073"  />
+
+</li>
+<li><p>收藏板块Stars</p>
+<p>  这里是我们收藏的项目啦</p>
+<p>  当我们遇到好的项目，想要以后经常看的话，点击项目上方的Star即可，项目就会被收藏啦</p>
+<p>  改版后，star 放到了头像下方</p>
+</li>
+</ul>
+<p><img src="F:/Typora_img/20200625215309294.png" alt="在这里插入图片描述"></p>
+<p>​    </p>
+<ul>
+<li><p>两个关注板块 Followers Following</p>
+<p>  顾名思义，就是我们关注的技术大佬，还有关注我们的粉丝啦</p>
+</li>
+</ul>
+<p><img src="F:/Typora_img/20200625215329169.png" alt="在这里插入图片描述"></p>
+<h3 id="创建项目仓库"><a href="#创建项目仓库" class="headerlink" title="创建项目仓库"></a>创建项目仓库</h3><p>创建自己的项目仓库，有很多种方法，下面列举两种常用的</p>
+<ul>
+<li>  点击右上角的加号，选择 <code>New repository</code>即可</li>
+</ul>
+<p><img src="F:/Typora_img/20200625215341900.png" alt="在这里插入图片描述"></p>
+<ul>
+<li>  在仓库板块，直接点击<code>New</code>即可</li>
+</ul>
+<p><img src="F:/Typora_img/20200625215411915.png" alt="在这里插入图片描述"></p>
+<h4 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h4><p>点击新建后</p>
+<p>页面如下</p>
+<p><img src="F:/Typora_img/20200625215429931.png" alt="在这里插入图片描述"></p>
+<p>需要填的内容有：</p>
+<ul>
+<li>  仓库名称</li>
+<li>  描述</li>
+<li>  仓库是否公开</li>
+<li>  是否自动创建 <strong>README.md</strong>  (用于仓库的进一步描述，在项目目录的下方显示)</li>
+</ul>
+<p>例如<br><img src="F:/Typora_img/20200625215511401.png" alt="在这里插入图片描述"><br>点击 <code>Create rrepository</code> 后</p>
+<p>自动跳转到仓库首页<br><img src="F:/Typora_img/20200625215552555.png" alt="在这里插入图片描述"></p>
+<h4 id="仓库页面功能介绍"><a href="#仓库页面功能介绍" class="headerlink" title="仓库页面功能介绍"></a>仓库页面功能介绍</h4><p>这里介绍一些常用功能，足以满足初学者</p>
+<p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625204605115.png" alt="image-20200625204605115"></p>
+<h4 id="为仓库新建文件和文件夹"><a href="#为仓库新建文件和文件夹" class="headerlink" title="为仓库新建文件和文件夹"></a>为仓库新建文件和文件夹</h4><p>点击 <code>Create File</code> 后</p>
+<p><img src="F:/Typora_img/20200625215927780.png" alt="111"><br>进行命名<br><img src="F:/Typora_img/20200625220000455.png" alt="在这里插入图片描述"></p>
+<p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625220028818.png" alt="在这里插入图片描述"></p>
+<p>然后点击 <code>Commit new file</code> 即可</p>
+<p>页面自动跳转</p>
+<p>创建完成</p>
+<p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625204907622.png" alt="image-20200625204907622"></p>
+<p>创建文件夹的话，加上 / 即可， Document为文件夹名</p>
+<p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625204952501.png" alt="image-20200625204952501"></p>
+<p>创建完成</p>
+<p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625205028157.png" alt="image-20200625205028157"></p>
+<h3 id="观摩大神的项目"><a href="#观摩大神的项目" class="headerlink" title="观摩大神的项目"></a>观摩大神的项目</h3><p>点击页面上方的 <strong>Explore</strong></p>
+<p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625205259073.png" alt="image-20200625205259073"></p>
+<p>可以看到上面的选择栏有众多选项可以选择</p>
+<p><img src="F:/Typora_img/image-20200625205443439.png" alt="image-20200625205443439"></p>
+<p>Github的使用暂时我只想到这些（git 以后单独出一版）</p>
+<p>下面来集中解决一些问题</p>
+<h2 id="关于Github访问慢的问题"><a href="#关于Github访问慢的问题" class="headerlink" title="关于Github访问慢的问题"></a>关于Github访问慢的问题</h2><p>在国内，Github 一直存在访问慢，图片不加载  仓库代码下载极慢甚至失败的问题</p>
+<p>现在大多数的方法就是修改本机的host文件</p>
+<p>host文件位置</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Windows\System32\drivers\etc</span><br></pre></td></tr></table></figure>
+
+<p>就是利用浏览器根据url在发送请求前，先去查找本机的 host 文件  若有，直接访问对应的服务器</p>
+<p>下面是我的host文件对于 Github 的ip地址</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"># GitHub Start </span><br><span class="line"></span><br><span class="line">140.82.114.3          github.com</span><br><span class="line">199.232.69.194    github.global.ssl.fastly.net</span><br><span class="line"></span><br><span class="line">192.30.253.119    gist.github.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    assets-cdn.github.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    raw.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    gist.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    cloud.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    camo.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars0.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars1.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars2.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars3.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars4.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars5.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars6.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars7.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars8.githubusercontent.com</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line"> # GitHub End</span><br></pre></td></tr></table></figure>
+
+<p>直接放到 后面即可</p>
+<p>若是权限不够</p>
+<p>先在其他位置创建同名文件  先将原 host 文件的内容 复制粘贴到里面</p>
+<p>然后后面加上  上面的 ip url  解析绑定</p>
+<p>这样  访问慢，图片不显示的问题就解决了</p>
+<h2 id="对于下载慢的问题"><a href="#对于下载慢的问题" class="headerlink" title="对于下载慢的问题"></a>对于下载慢的问题</h2><p>可以通过  国内版github  码云来解决</p>
+<ol>
+<li><p>先将github 上仓库的url 复制  注意一定要是  https  </p>
+<p> <img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213154920.png" alt="image-20200625213154920"></p>
+</li>
+<li><p> 点击导入仓库</p>
+</li>
+</ol>
+<p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213054992.png" alt="image-20200625213054992"></p>
+<ol start="3">
+<li><p>在这里填入即可</p>
+<p> <img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213405589.png" alt="image-20200625213405589"></p>
+</li>
+<li><p>点击导入就可，一般速度很快</p>
+<p> <img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213437259.png" alt="image-20200625213437259"></p>
+</li>
+<li><p>点击下载压缩包即可</p>
+<p> <img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213503636.png" alt="image-20200625213503636"></p>
+</li>
+</ol>
+<p>当然，码云上也有很多好项目，但完全被我用成了下载工具(狗头)</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/sLxiaosheng/First_Repository">访问慢的另一种解决方案</a></p>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>刘弘毅
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://liuminchao123.github.io/2021/03/07/Github%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/" title="Github新手教程">http://liuminchao123.github.io/2021/03/07/Github新手教程/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E5%B0%8F%E6%95%99%E7%A8%8B/" rel="tag"><i class="fa fa-tags"></i> 小教程</a>
+              <a href="/tags/Github/" rel="tag"><i class="fa fa-tags"></i> Github</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/03/07/Next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/" rel="prev" title="Next主题美化">
+      <i class="fa fa-chevron-left"></i> Next主题美化
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+        </div>
+        
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">刘弘毅</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">NaNm</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">NaN:aN</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+  
+
+  <script async src="/js/cursor/fireworks.js"></script>
+
+
+  <!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/clicklove.js"></script>
+</body>
+</html>
