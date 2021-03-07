@@ -1,178 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>Github新手教程</title>
-    <url>/2020/07/06/Github%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<h2 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h2><h3 id="注册一个账号"><a href="#注册一个账号" class="headerlink" title="注册一个账号"></a>注册一个账号</h3><p>直接在<a href="https://github.com/">首页</a>注册即可啦</p>
-<span id="more"></span>
-
-<img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215031114.png" alt="在这里插入图片描述"  />
-
-<p>要注意的是 第一项 username 别人是可见的 后面修改也会比较麻烦，所以起个好名字很重要</p>
-<h3 id="个人主页介绍"><a href="#个人主页介绍" class="headerlink" title="个人主页介绍"></a>个人主页介绍</h3><p>刚注册好的页面类似这样，只不过还没有自己的repositories(项目仓库)，stars(收藏)</p>
-<img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215048987.png" alt="在这里插入图片描述"  />
-
-<ul>
-<li><p>Overview板块</p>
-<p>  这里是你的主页部分</p>
-</li>
-</ul>
-<img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/2020062521511921.png" alt="在这里插入图片描述"  />
-
-<p>下拉之后，是你创建，修改，提交的一些细节记录</p>
-<img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/2020062521513735.png" alt="在这里插入图片描述"  />
-
-<ul>
-<li><p>项目仓库板块 Repositories</p>
-<p>  这里展示你的项目（自己创建的，fork他人的)</p>
-</li>
-</ul>
-<img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215147930.png" alt="在这里插入图片描述"  />
-    也可以进行项目查找工作（包括对类型，语言的筛选）
-
-<p>​    也可以点击<code>New</code> 绿色的按钮，进行项目创建</p>
-<p>​    </p>
-<ul>
-<li><p>项目管理板块Projects</p>
-<p>  这里你可以描述有关项目的细节，如：拉去请求，注释，议题</p>
-  <img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215227598.png" alt="在这里插入图片描述"  />
-  我暂时还没用到……</li>
-</ul>
-<ul>
-<li><p>包注册表板块Packages</p>
-<p>  官方给的介绍是：GitHub 包注册表 是一种软件包托管服务，允许您私下或公开托管软件包，并将包用作项目中的依赖项（暂时用不上）</p>
-  <img src="../../../../Myblog_old/blog/source/_posts/Github入门教程/image-20200625203233073.png" alt="image-20200625203233073"  />
-
-</li>
-<li><p>收藏板块Stars</p>
-<p>  这里是我们收藏的项目啦</p>
-<p>  当我们遇到好的项目，想要以后经常看的话，点击项目上方的Star即可，项目就会被收藏啦</p>
-<p>  改版后，star 放到了头像下方</p>
-</li>
-</ul>
-<p><img src="F:/Typora_img/20200625215309294.png" alt="在这里插入图片描述"></p>
-<p>​    </p>
-<ul>
-<li><p>两个关注板块 Followers Following</p>
-<p>  顾名思义，就是我们关注的技术大佬，还有关注我们的粉丝啦</p>
-</li>
-</ul>
-<p><img src="F:/Typora_img/20200625215329169.png" alt="在这里插入图片描述"></p>
-<h3 id="创建项目仓库"><a href="#创建项目仓库" class="headerlink" title="创建项目仓库"></a>创建项目仓库</h3><p>创建自己的项目仓库，有很多种方法，下面列举两种常用的</p>
-<ul>
-<li>  点击右上角的加号，选择 <code>New repository</code>即可</li>
-</ul>
-<p><img src="F:/Typora_img/20200625215341900.png" alt="在这里插入图片描述"></p>
-<ul>
-<li>  在仓库板块，直接点击<code>New</code>即可</li>
-</ul>
-<p><img src="F:/Typora_img/20200625215411915.png" alt="在这里插入图片描述"></p>
-<h4 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h4><p>点击新建后</p>
-<p>页面如下</p>
-<p><img src="F:/Typora_img/20200625215429931.png" alt="在这里插入图片描述"></p>
-<p>需要填的内容有：</p>
-<ul>
-<li>  仓库名称</li>
-<li>  描述</li>
-<li>  仓库是否公开</li>
-<li>  是否自动创建 <strong>README.md</strong>  (用于仓库的进一步描述，在项目目录的下方显示)</li>
-</ul>
-<p>例如<br><img src="F:/Typora_img/20200625215511401.png" alt="在这里插入图片描述"><br>点击 <code>Create rrepository</code> 后</p>
-<p>自动跳转到仓库首页<br><img src="F:/Typora_img/20200625215552555.png" alt="在这里插入图片描述"></p>
-<h4 id="仓库页面功能介绍"><a href="#仓库页面功能介绍" class="headerlink" title="仓库页面功能介绍"></a>仓库页面功能介绍</h4><p>这里介绍一些常用功能，足以满足初学者</p>
-<p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625204605115.png" alt="image-20200625204605115"></p>
-<h4 id="为仓库新建文件和文件夹"><a href="#为仓库新建文件和文件夹" class="headerlink" title="为仓库新建文件和文件夹"></a>为仓库新建文件和文件夹</h4><p>点击 <code>Create File</code> 后</p>
-<p><img src="F:/Typora_img/20200625215927780.png" alt="111"><br>进行命名<br><img src="F:/Typora_img/20200625220000455.png" alt="在这里插入图片描述"></p>
-<p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625220028818.png" alt="在这里插入图片描述"></p>
-<p>然后点击 <code>Commit new file</code> 即可</p>
-<p>页面自动跳转</p>
-<p>创建完成</p>
-<p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625204907622.png" alt="image-20200625204907622"></p>
-<p>创建文件夹的话，加上 / 即可， Document为文件夹名</p>
-<p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625204952501.png" alt="image-20200625204952501"></p>
-<p>创建完成</p>
-<p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625205028157.png" alt="image-20200625205028157"></p>
-<h3 id="观摩大神的项目"><a href="#观摩大神的项目" class="headerlink" title="观摩大神的项目"></a>观摩大神的项目</h3><p>点击页面上方的 <strong>Explore</strong></p>
-<p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625205259073.png" alt="image-20200625205259073"></p>
-<p>可以看到上面的选择栏有众多选项可以选择</p>
-<p><img src="F:/Typora_img/image-20200625205443439.png" alt="image-20200625205443439"></p>
-<p>Github的使用暂时我只想到这些（git 以后单独出一版）</p>
-<p>下面来集中解决一些问题</p>
-<h2 id="关于Github访问慢的问题"><a href="#关于Github访问慢的问题" class="headerlink" title="关于Github访问慢的问题"></a>关于Github访问慢的问题</h2><p>在国内，Github 一直存在访问慢，图片不加载  仓库代码下载极慢甚至失败的问题</p>
-<p>现在大多数的方法就是修改本机的host文件</p>
-<p>host文件位置</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">C:\Windows\System32\drivers\etc</span><br></pre></td></tr></table></figure>
-
-<p>就是利用浏览器根据url在发送请求前，先去查找本机的 host 文件  若有，直接访问对应的服务器</p>
-<p>下面是我的host文件对于 Github 的ip地址</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># GitHub Start </span><br><span class="line"></span><br><span class="line">140.82.114.3          github.com</span><br><span class="line">199.232.69.194    github.global.ssl.fastly.net</span><br><span class="line"></span><br><span class="line">192.30.253.119    gist.github.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    assets-cdn.github.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    raw.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    gist.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    cloud.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    camo.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars0.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars1.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars2.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars3.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars4.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars5.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars6.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars7.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars8.githubusercontent.com</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line"> # GitHub End</span><br></pre></td></tr></table></figure>
-
-<p>直接放到 后面即可</p>
-<p>若是权限不够</p>
-<p>先在其他位置创建同名文件  先将原 host 文件的内容 复制粘贴到里面</p>
-<p>然后后面加上  上面的 ip url  解析绑定</p>
-<p>这样  访问慢，图片不显示的问题就解决了</p>
-<h2 id="对于下载慢的问题"><a href="#对于下载慢的问题" class="headerlink" title="对于下载慢的问题"></a>对于下载慢的问题</h2><p>可以通过  国内版github  码云来解决</p>
-<ol>
-<li><p>先将github 上仓库的url 复制  注意一定要是  https  </p>
-<p> <img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213154920.png" alt="image-20200625213154920"></p>
-</li>
-<li><p> 点击导入仓库</p>
-</li>
-</ol>
-<p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213054992.png" alt="image-20200625213054992"></p>
-<ol start="3">
-<li><p>在这里填入即可</p>
-<p> <img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213405589.png" alt="image-20200625213405589"></p>
-</li>
-<li><p>点击导入就可，一般速度很快</p>
-<p> <img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213437259.png" alt="image-20200625213437259"></p>
-</li>
-<li><p>点击下载压缩包即可</p>
-<p> <img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213503636.png" alt="image-20200625213503636"></p>
-</li>
-</ol>
-<p>当然，码云上也有很多好项目，但完全被我用成了下载工具(狗头)</p>
-<p><a href="https://github.com/sLxiaosheng/First_Repository">访问慢的另一种解决方案</a></p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Next主题美化</title>
+      <link href="2021/03/07/Next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/"/>
+      <url>2021/03/07/Next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
+      
+        <content type="html"><![CDATA[<h3 id="鼠标点击红心特效"><a href="#鼠标点击红心特效" class="headerlink" title="鼠标点击红心特效"></a>鼠标点击红心特效</h3><p>在<code>/themes/next/source/js/src</code>下新建文件 <code>clicklove.js</code>，接着把下面的代码拷贝粘贴到<code>clicklove.js</code>文件中：</p><span id="more"></span><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">copy!function(e,t,a)&#123;function n()&#123;c(&quot;.heart&#123;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);&#125;.heart:after,.heart:before&#123;content: &#39;&#39;;width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;&#125;.heart:after&#123;top: -5px;&#125;.heart:before&#123;left: -5px;&#125;&quot;),o(),r()&#125;function r()&#123;for(var e&#x3D;0;e&lt;d.length;e++)d[e].alpha&lt;&#x3D;0?(t.body.removeChild(d[e].el),d.splice(e,1)):(d[e].y--,d[e].scale+&#x3D;.004,d[e].alpha-&#x3D;.013,d[e].el.style.cssText&#x3D;&quot;left:&quot;+d[e].x+&quot;px;top:&quot;+d[e].y+&quot;px;opacity:&quot;+d[e].alpha+&quot;;transform:scale(&quot;+d[e].scale+&quot;,&quot;+d[e].scale+&quot;) rotate(45deg);background:&quot;+d[e].color+&quot;;z-index:99999&quot;);requestAnimationFrame(r)&#125;function o()&#123;var t&#x3D;&quot;function&quot;&#x3D;&#x3D;typeof e.onclick&amp;&amp;e.onclick;e.onclick&#x3D;function(e)&#123;t&amp;&amp;t(),i(e)&#125;&#125;function i(e)&#123;var a&#x3D;t.createElement(&quot;div&quot;);a.className&#x3D;&quot;heart&quot;,d.push(&#123;el:a,x:e.clientX-5,y:e.clientY-5,scale:1,alpha:1,color:s()&#125;),t.body.appendChild(a)&#125;function c(e)&#123;var a&#x3D;t.createElement(&quot;style&quot;);a.type&#x3D;&quot;text&#x2F;css&quot;;try&#123;a.appendChild(t.createTextNode(e))&#125;catch(t)&#123;a.styleSheet.cssText&#x3D;e&#125;t.getElementsByTagName(&quot;head&quot;)[0].appendChild(a)&#125;function s()&#123;return&quot;rgb(&quot;+~~(255*Math.random())+&quot;,&quot;+~~(255*Math.random())+&quot;,&quot;+~~(255*Math.random())+&quot;)&quot;&#125;var d&#x3D;[];e.requestAnimationFrame&#x3D;function()&#123;return e.requestAnimationFrame||e.webkitRequestAnimationFrame||e.mozRequestAnimationFrame||e.oRequestAnimationFrame||e.msRequestAnimationFrame||function(e)&#123;setTimeout(e,1e3&#x2F;60)&#125;&#125;(),n()&#125;(window,document);</span><br></pre></td></tr></table></figure><p>在<code>\themes\next\layout\_layout.swig</code>文件末尾添加：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">copy&lt;!-- 页面点击小红心 --&gt;</span><br><span class="line">&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;js&#x2F;src&#x2F;clicklove.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure><h4 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h4><p><img src="https://gitee.com/liuminchao7/img/raw/master/Next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/1.png" alt="image-20200710205355961"></p><h3 id="修改网站图标"><a href="#修改网站图标" class="headerlink" title="修改网站图标"></a>修改网站图标</h3><p>Next支持修改图标</p><ul><li><p>  下载16x16以及32x32大小的PNG格式图标，放到<code>/themes/next/source/images/</code>下</p></li><li><p>打开<code>themes/next/</code>下的<code>_config.yml</code>，查找<code>favicon</code></p>  <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">copyfavicon:</span></span><br><span class="line">  <span class="attr">small:</span> <span class="string">/images/cat-16x16-next.png</span></span><br><span class="line">  <span class="attr">medium:</span> <span class="string">/images/cat-32x32-next.png</span></span><br><span class="line">  <span class="attr">apple_touch_icon:</span> <span class="string">/images/apple-touch-icon-next.png</span></span><br><span class="line">  <span class="attr">safari_pinned_tab:</span> <span class="string">/images/logo.svg</span></span><br><span class="line">  <span class="comment">#android_manifest: /images/manifest.json</span></span><br><span class="line">  <span class="comment">#ms_browserconfig: /images/browserconfig.xml</span></span><br></pre></td></tr></table></figure><p>  修改<code>small</code>和<code>medium</code>的路径为下载的图标路径</p><p>  我在 <a href="https://favicon.io/">favicon.io</a> 找到的   选择了红心    表示活力  朝气    以及给满屏白色填一些颜色</p><h4 id="效果图-1"><a href="#效果图-1" class="headerlink" title="效果图"></a>效果图</h4><p>  <img src="F:/Typora_img/2-1615116556069.png" alt="image-20200710211548233"></p></li></ul>]]></content>
+      
+      
       <categories>
-        <category>Learn</category>
+          
+          <category> Learn </category>
+          
       </categories>
-      <tags>
-        <tag>小教程</tag>
-        <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Next主题美化</title>
-    <url>/2021/03/07/Next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
-    <content><![CDATA[<h3 id="鼠标点击红心特效"><a href="#鼠标点击红心特效" class="headerlink" title="鼠标点击红心特效"></a>鼠标点击红心特效</h3><p>在<code>/themes/next/source/js/src</code>下新建文件 <code>clicklove.js</code>，接着把下面的代码拷贝粘贴到<code>clicklove.js</code>文件中：</p>
-<span id="more"></span>
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">copy!function(e,t,a)&#123;function n()&#123;c(&quot;.heart&#123;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);&#125;.heart:after,.heart:before&#123;content: &#39;&#39;;width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;&#125;.heart:after&#123;top: -5px;&#125;.heart:before&#123;left: -5px;&#125;&quot;),o(),r()&#125;function r()&#123;for(var e&#x3D;0;e&lt;d.length;e++)d[e].alpha&lt;&#x3D;0?(t.body.removeChild(d[e].el),d.splice(e,1)):(d[e].y--,d[e].scale+&#x3D;.004,d[e].alpha-&#x3D;.013,d[e].el.style.cssText&#x3D;&quot;left:&quot;+d[e].x+&quot;px;top:&quot;+d[e].y+&quot;px;opacity:&quot;+d[e].alpha+&quot;;transform:scale(&quot;+d[e].scale+&quot;,&quot;+d[e].scale+&quot;) rotate(45deg);background:&quot;+d[e].color+&quot;;z-index:99999&quot;);requestAnimationFrame(r)&#125;function o()&#123;var t&#x3D;&quot;function&quot;&#x3D;&#x3D;typeof e.onclick&amp;&amp;e.onclick;e.onclick&#x3D;function(e)&#123;t&amp;&amp;t(),i(e)&#125;&#125;function i(e)&#123;var a&#x3D;t.createElement(&quot;div&quot;);a.className&#x3D;&quot;heart&quot;,d.push(&#123;el:a,x:e.clientX-5,y:e.clientY-5,scale:1,alpha:1,color:s()&#125;),t.body.appendChild(a)&#125;function c(e)&#123;var a&#x3D;t.createElement(&quot;style&quot;);a.type&#x3D;&quot;text&#x2F;css&quot;;try&#123;a.appendChild(t.createTextNode(e))&#125;catch(t)&#123;a.styleSheet.cssText&#x3D;e&#125;t.getElementsByTagName(&quot;head&quot;)[0].appendChild(a)&#125;function s()&#123;return&quot;rgb(&quot;+~~(255*Math.random())+&quot;,&quot;+~~(255*Math.random())+&quot;,&quot;+~~(255*Math.random())+&quot;)&quot;&#125;var d&#x3D;[];e.requestAnimationFrame&#x3D;function()&#123;return e.requestAnimationFrame||e.webkitRequestAnimationFrame||e.mozRequestAnimationFrame||e.oRequestAnimationFrame||e.msRequestAnimationFrame||function(e)&#123;setTimeout(e,1e3&#x2F;60)&#125;&#125;(),n()&#125;(window,document);</span><br></pre></td></tr></table></figure>
-
-<p>在<code>\themes\next\layout\_layout.swig</code>文件末尾添加：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">copy&lt;!-- 页面点击小红心 --&gt;</span><br><span class="line">&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;js&#x2F;src&#x2F;clicklove.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
-
-<h4 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h4><p><img src="https://gitee.com/liuminchao7/img/raw/master/Next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/1.png" alt="image-20200710205355961"></p>
-<h3 id="修改网站图标"><a href="#修改网站图标" class="headerlink" title="修改网站图标"></a>修改网站图标</h3><p>Next支持修改图标</p>
-<ul>
-<li><p>  下载16x16以及32x32大小的PNG格式图标，放到<code>/themes/next/source/images/</code>下</p>
-</li>
-<li><p>打开<code>themes/next/</code>下的<code>_config.yml</code>，查找<code>favicon</code></p>
-  <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">copyfavicon:</span></span><br><span class="line">  <span class="attr">small:</span> <span class="string">/images/cat-16x16-next.png</span></span><br><span class="line">  <span class="attr">medium:</span> <span class="string">/images/cat-32x32-next.png</span></span><br><span class="line">  <span class="attr">apple_touch_icon:</span> <span class="string">/images/apple-touch-icon-next.png</span></span><br><span class="line">  <span class="attr">safari_pinned_tab:</span> <span class="string">/images/logo.svg</span></span><br><span class="line">  <span class="comment">#android_manifest: /images/manifest.json</span></span><br><span class="line">  <span class="comment">#ms_browserconfig: /images/browserconfig.xml</span></span><br></pre></td></tr></table></figure>
-
-<p>  修改<code>small</code>和<code>medium</code>的路径为下载的图标路径</p>
-<p>  我在 <a href="https://favicon.io/">favicon.io</a> 找到的   选择了红心    表示活力  朝气    以及给满屏白色填一些颜色</p>
-<h4 id="效果图-1"><a href="#效果图-1" class="headerlink" title="效果图"></a>效果图</h4><p>  <img src="F:/Typora_img/2-1615116556069.png" alt="image-20200710211548233"></p>
-</li>
-</ul>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 个性化Next </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Github新手教程</title>
+      <link href="2020/07/06/Github%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/"/>
+      <url>2020/07/06/Github%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h2 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h2><h3 id="注册一个账号"><a href="#注册一个账号" class="headerlink" title="注册一个账号"></a>注册一个账号</h3><p>直接在<a href="https://github.com/">首页</a>注册即可啦</p><span id="more"></span><img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215031114.png" alt="在这里插入图片描述"  /><p>要注意的是 第一项 username 别人是可见的 后面修改也会比较麻烦，所以起个好名字很重要</p><h3 id="个人主页介绍"><a href="#个人主页介绍" class="headerlink" title="个人主页介绍"></a>个人主页介绍</h3><p>刚注册好的页面类似这样，只不过还没有自己的repositories(项目仓库)，stars(收藏)</p><img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215048987.png" alt="在这里插入图片描述"  /><ul><li><p>Overview板块</p><p>  这里是你的主页部分</p></li></ul><img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/2020062521511921.png" alt="在这里插入图片描述"  /><p>下拉之后，是你创建，修改，提交的一些细节记录</p><img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/2020062521513735.png" alt="在这里插入图片描述"  /><ul><li><p>项目仓库板块 Repositories</p><p>  这里展示你的项目（自己创建的，fork他人的)</p></li></ul><img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215147930.png" alt="在这里插入图片描述"  />    也可以进行项目查找工作（包括对类型，语言的筛选）<p>​    也可以点击<code>New</code> 绿色的按钮，进行项目创建</p><p>​    </p><ul><li><p>项目管理板块Projects</p><p>  这里你可以描述有关项目的细节，如：拉去请求，注释，议题</p>  <img src="https://gitee.com/liuminchao7/img/raw/master/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625215227598.png" alt="在这里插入图片描述"  />  我暂时还没用到……</li></ul><ul><li><p>包注册表板块Packages</p><p>  官方给的介绍是：GitHub 包注册表 是一种软件包托管服务，允许您私下或公开托管软件包，并将包用作项目中的依赖项（暂时用不上）</p>  <img src="../../../../Myblog_old/blog/source/_posts/Github入门教程/image-20200625203233073.png" alt="image-20200625203233073"  /></li><li><p>收藏板块Stars</p><p>  这里是我们收藏的项目啦</p><p>  当我们遇到好的项目，想要以后经常看的话，点击项目上方的Star即可，项目就会被收藏啦</p><p>  改版后，star 放到了头像下方</p></li></ul><p><img src="F:/Typora_img/20200625215309294.png" alt="在这里插入图片描述"></p><p>​    </p><ul><li><p>两个关注板块 Followers Following</p><p>  顾名思义，就是我们关注的技术大佬，还有关注我们的粉丝啦</p></li></ul><p><img src="F:/Typora_img/20200625215329169.png" alt="在这里插入图片描述"></p><h3 id="创建项目仓库"><a href="#创建项目仓库" class="headerlink" title="创建项目仓库"></a>创建项目仓库</h3><p>创建自己的项目仓库，有很多种方法，下面列举两种常用的</p><ul><li>  点击右上角的加号，选择 <code>New repository</code>即可</li></ul><p><img src="F:/Typora_img/20200625215341900.png" alt="在这里插入图片描述"></p><ul><li>  在仓库板块，直接点击<code>New</code>即可</li></ul><p><img src="F:/Typora_img/20200625215411915.png" alt="在这里插入图片描述"></p><h4 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h4><p>点击新建后</p><p>页面如下</p><p><img src="F:/Typora_img/20200625215429931.png" alt="在这里插入图片描述"></p><p>需要填的内容有：</p><ul><li>  仓库名称</li><li>  描述</li><li>  仓库是否公开</li><li>  是否自动创建 <strong>README.md</strong>  (用于仓库的进一步描述，在项目目录的下方显示)</li></ul><p>例如<br><img src="F:/Typora_img/20200625215511401.png" alt="在这里插入图片描述"><br>点击 <code>Create rrepository</code> 后</p><p>自动跳转到仓库首页<br><img src="F:/Typora_img/20200625215552555.png" alt="在这里插入图片描述"></p><h4 id="仓库页面功能介绍"><a href="#仓库页面功能介绍" class="headerlink" title="仓库页面功能介绍"></a>仓库页面功能介绍</h4><p>这里介绍一些常用功能，足以满足初学者</p><p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625204605115.png" alt="image-20200625204605115"></p><h4 id="为仓库新建文件和文件夹"><a href="#为仓库新建文件和文件夹" class="headerlink" title="为仓库新建文件和文件夹"></a>为仓库新建文件和文件夹</h4><p>点击 <code>Create File</code> 后</p><p><img src="F:/Typora_img/20200625215927780.png" alt="111"><br>进行命名<br><img src="F:/Typora_img/20200625220000455.png" alt="在这里插入图片描述"></p><p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/20200625220028818.png" alt="在这里插入图片描述"></p><p>然后点击 <code>Commit new file</code> 即可</p><p>页面自动跳转</p><p>创建完成</p><p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625204907622.png" alt="image-20200625204907622"></p><p>创建文件夹的话，加上 / 即可， Document为文件夹名</p><p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625204952501.png" alt="image-20200625204952501"></p><p>创建完成</p><p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625205028157.png" alt="image-20200625205028157"></p><h3 id="观摩大神的项目"><a href="#观摩大神的项目" class="headerlink" title="观摩大神的项目"></a>观摩大神的项目</h3><p>点击页面上方的 <strong>Explore</strong></p><p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625205259073.png" alt="image-20200625205259073"></p><p>可以看到上面的选择栏有众多选项可以选择</p><p><img src="F:/Typora_img/image-20200625205443439.png" alt="image-20200625205443439"></p><p>Github的使用暂时我只想到这些（git 以后单独出一版）</p><p>下面来集中解决一些问题</p><h2 id="关于Github访问慢的问题"><a href="#关于Github访问慢的问题" class="headerlink" title="关于Github访问慢的问题"></a>关于Github访问慢的问题</h2><p>在国内，Github 一直存在访问慢，图片不加载  仓库代码下载极慢甚至失败的问题</p><p>现在大多数的方法就是修改本机的host文件</p><p>host文件位置</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Windows\System32\drivers\etc</span><br></pre></td></tr></table></figure><p>就是利用浏览器根据url在发送请求前，先去查找本机的 host 文件  若有，直接访问对应的服务器</p><p>下面是我的host文件对于 Github 的ip地址</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"># GitHub Start </span><br><span class="line"></span><br><span class="line">140.82.114.3          github.com</span><br><span class="line">199.232.69.194    github.global.ssl.fastly.net</span><br><span class="line"></span><br><span class="line">192.30.253.119    gist.github.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    assets-cdn.github.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    raw.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    gist.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    cloud.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    camo.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars0.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars1.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars2.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars3.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars4.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars5.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars6.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars7.githubusercontent.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    avatars8.githubusercontent.com</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line"> # GitHub End</span><br></pre></td></tr></table></figure><p>直接放到 后面即可</p><p>若是权限不够</p><p>先在其他位置创建同名文件  先将原 host 文件的内容 复制粘贴到里面</p><p>然后后面加上  上面的 ip url  解析绑定</p><p>这样  访问慢，图片不显示的问题就解决了</p><h2 id="对于下载慢的问题"><a href="#对于下载慢的问题" class="headerlink" title="对于下载慢的问题"></a>对于下载慢的问题</h2><p>可以通过  国内版github  码云来解决</p><ol><li><p>先将github 上仓库的url 复制  注意一定要是  https  </p><p> <img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213154920.png" alt="image-20200625213154920"></p></li><li><p> 点击导入仓库</p></li></ol><p><img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213054992.png" alt="image-20200625213054992"></p><ol start="3"><li><p>在这里填入即可</p><p> <img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213405589.png" alt="image-20200625213405589"></p></li><li><p>点击导入就可，一般速度很快</p><p> <img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213437259.png" alt="image-20200625213437259"></p></li><li><p>点击下载压缩包即可</p><p> <img src="../../../../Myblog_old/blog/source/_posts/Github%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/image-20200625213503636.png" alt="image-20200625213503636"></p></li></ol><p>当然，码云上也有很多好项目，但完全被我用成了下载工具(狗头)</p><p><a href="https://github.com/sLxiaosheng/First_Repository">访问慢的另一种解决方案</a></p>]]></content>
+      
+      
       <categories>
-        <category>Learn</category>
+          
+          <category> Learn </category>
+          
       </categories>
-      <tags>
-        <tag>个性化Next</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 小教程 </tag>
+            
+            <tag> Github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
